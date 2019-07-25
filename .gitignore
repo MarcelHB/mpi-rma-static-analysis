@@ -1,0 +1,6 @@
+build/
+*.ll
+*.bc
+*.o
+*.so
+test_scale*/
