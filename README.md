@@ -1,6 +1,6 @@
 # MPI RMA static analysis
 
-An Phasar/LLVM-based tool to perform a static analysis for different
+An LLVM/Phasar-based tool to perform static analyses for different
 properties of MPI RMA.
 
 ## License
@@ -112,7 +112,7 @@ rently, the following flags can be passed to the tool:
                    `main`, then override this by `ENTRY_POINT`. For Fortran code, setting
                    `-e MAIN_` is likely to be required.
 
-`-h, -help` ...... Prints an essential usage help to the output.
+`-h, --help` ..... Prints an essential usage help to the output.
 
 `-L` ............. Lazy mode IFDS problem model. Switches to the lazy IFDS problem path
                    sensitivity, currently skipping the post-IFDS problem analysis stage.
